@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="ExamUWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ExamUWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBox x:ConnectionId='2' HorizontalAlignment="Left" x:Name="txtName" Margin="323,233,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="290"/>
+        <TextBlock HorizontalAlignment="Left" Margin="208,187,0,0" Text="Add Contact" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="208,239,0,0" Text="Name:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:ConnectionId='3' HorizontalAlignment="Left" Margin="323,297,0,0" x:Name="txtPhone" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="290"/>
+        <TextBlock HorizontalAlignment="Left" Margin="208,303,0,0" Text="Phone:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='4' Content="Add Contact" Margin="327,359,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.363,-0.062" Width="280"            />
+        <TextBox x:ConnectionId='5' HorizontalAlignment="Left" x:Name="txtSearch" Margin="321,437,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="290"/>
+        <TextBlock x:ConnectionId='6' HorizontalAlignment="Left" Margin="206,511,0,0" x:Name="result" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="416"/>
+        <Button x:ConnectionId='7' Content="Search" Margin="203,436,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.363,-0.062" Width="85"                Height="34"/>
+
+    </Grid>
+    
+</Page>
+

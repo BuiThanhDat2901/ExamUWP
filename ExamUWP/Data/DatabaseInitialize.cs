@@ -62,7 +62,7 @@ namespace ExamUWP.Data
                         var contactThis = new Contact()
                         {
                             Name = (string)stt["Name"],
-                            PhoneNumber = (string)stt["Phone"],
+                            PhoneNumber = (string)stt["PhoneNumber"],
                         };
                         list.Add(contactThis);
                     }
@@ -91,7 +91,7 @@ namespace ExamUWP.Data
                         var contact = new Contact()
                         {
                             Name = (string)stt["Name"],
-                            PhoneNumber = (string)stt["Phone"],
+                            PhoneNumber = (string)stt["PhoneNumber"],
                         };
                         list.Add(contact);
                     }
